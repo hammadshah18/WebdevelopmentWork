@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Form</title>
+    <style>
+        body{
+            background-color: rgba(253, 254, 214, 0.8) ;
+        }
+        h1{
+            color: rgba(88, 93, 79, 0.7);
+        }
+       
+        p{
+            color: rgb(0, 0, 0);
+        }
+        .shah{
+            color: rgb(86, 92, 12);
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>Simple Form</h1><hr>
+    <form action=""><fieldset class="shah">
+        <legend>Form</legend>
+        
+<p >Name : <input type="text"  name="name" maxlength="8" placeholder="Enter Name"></p>
+<p> Father : <input type="text" name=" name" placeholder="Father Name"></p>
+<p>Roll No : <input type="text" name="roll no" placeholder="23CSxx"></p>
+<p>CNIC : <input type="number" name="number" 
+    placeholder="e.g-> xxxxx-xxxxxxx"></p>
+    <p>Mobile : <input type="number" name="number" 
+        placeholder="e.g-> xxxx-xxxxxx"></p>
+        <p>Email : <input type="email" name="email" placeholder="email@.com"></p>
+<p>Password : <input type="password" placeholder="xxxxx"></p>
+<p>DOB : <input type="date" name="date"></p>
+
+<p>Age : <input type="number" name="age" placeholder="Age"></p>
+<P>University Name : <input type="text" name="" placeholder="University"></P>
+<p>Admission Year & Month: <input type="month" name="month"></p>
+<p >Country : <select>
+    <option value="">please select country</option>
+    <optgroup label="Asia">
+        <option > pakistan</option>
+        <option value="">sri lanka</option>
+        <option value="">Iran</option>
+        <option value="">japan</option>
+        <option value="">indoneisa</option>
+    </optgroup>
+    <optgroup label="Europe">
+        <option value=""> Germany</option>
+        <option value=""> France</option>
+    <option value="">Spain</option>
+    <option value="">England</option>
+</optgroup>
+
+<optgroup  label="Australia">
+    
+    
+    
+    
+    <option value="">Australia</option>
+    
+    <option value="">Newzealand</option>
+</optgroup>
+<optgroup label="North America">
+    <option value="">canada</option>
+    <option value="">USA</option>
+</optgroup>
+<optgroup label="South America">
+    <option value="">Brazil</option>
+    
+    <option value="">Mexico</option>
+    <option value="">Argentina</option>
+</optgroup>
+<optgroup label="Africa">
+    <option value="">south Africa</option>
+</optgroup>
+</select>
+</p>
+
+<p > Gender : <label><input type="radio" value="M" name="gender">Male</label> 
+    <label ><input type="radio"value="F" name="gender">female </label>
+  <label> <input type="radio" value="other" name="gender">other </label> </p>
+<p> Hobbies : <input type="checkbox" name="Hobbies[]"> cricket
+    <input type="checkbox" name="Hobbies[]">football
+    <input type="checkbox" name="Hobbies[]">Traveling
+    <p   >  Address : <textarea name="address" minlength="8" maxlength="20" placeholder="Enter Address"></textarea></p>
+   <p>Image : <input type="file" name="image"></p> 
+   <p><input type="submit" > <input type="reset"></p>
+    
+    
+    
+    
+</p>
+
+</fieldset>
+<hr>
+</form>
+</body>
+</html>
